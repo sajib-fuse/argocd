@@ -13,4 +13,4 @@ metadata:
   resourceVersion: "408"
   uid: 9785d161-8354-485a-935d-284f9afb5145
   data:
- accounts.argo-account: apiKey, login
+    accounts.argo-account: apiKey, login
