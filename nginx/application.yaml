@@ -6,13 +6,13 @@ metadata:
 spec:
   project: default
   source: 
-    repoUrl: https://github.com/sajib-fuse/argocd.git
+    repoURL: https://github.com/sajib-fuse/argocd.git
     targetRevision: HEAD
     path: nginx
   destination:
     server: https://kubernetes.default.svc
     namespace: myapp-nginx
-  syncPolicty:
+  syncPolicy:
     syncOptions:
     - CreateNameSpace=true
     automated:

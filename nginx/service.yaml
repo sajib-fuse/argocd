@@ -4,7 +4,7 @@ metadata:
   name: myapp-service
 spec: 
   selector:
-    app: myapp
+    app: myapp-nginx
   ports:
   - port: 8000
     protocal: TCP
