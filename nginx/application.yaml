@@ -14,7 +14,7 @@ spec:
     namespace: myapp-nginx
   syncPolicy:
     syncOptions:
-    - CreateNameSpace=true
+    - CreateNamespace=true
     automated:
       selfHeal: true
       prune: true
