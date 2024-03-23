@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source: 
-    repoUrl:
+    repoUrl: https://github.com/sajib-fuse/argocd.git
     targetRevision: HEAD
     path: nginx
   destination:
